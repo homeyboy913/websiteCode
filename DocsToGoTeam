@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <meta charset="UTF-8">
+    <title>Docs To Go Team</title>
+</head>
+<body>
+
+
+<div class="header">Working with the Docs To Go Team in Toronto</div>
+
+<div class="left">
+    <form class="buttons" method="link" action="DocsToGo.html"><input type="submit" value="Docs to Go Team" height="40" width="170"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="WatchDoxApp.html"><input type="submit" value="WatchDox App"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="DocsToGoApp.html"><input type="submit" value="Docs to Go App"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="LinuxandTerminal.html"><input type="submit" value="Linux and Terminal"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="ReposandGitHub.html"><input type="submit" value="Repos and Git Hub"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="index.html"><input type="submit" value="Home"></form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="aboutMe.html"><input type="submit" value="About Me"></form>
+
+</div>
+
+<img style="margin-left:225px; width:100px;height:100px" src="http://tinyurl.com/nqqqa99" alt="ERROR: Please update your browser">
+
+<pre style="margin-left:225px">
+    Working with the Docs To Go Team and participating in their two-three work periods (called sprints) has been a
+unique and rewarding learning experience. Previously, about a year ago, the methodology for the development of software
+turned completely on its head. Instead of using older, outdated techniques such as Waterfall, engineers and managers
+alike resorted to a newer, more contemporary viewpoint. It was in this thinking that Agile and Scrum emerged, ready to
+be utilized. The main difference between the new and the old is largely related to time management. Waterfall was a
+fairly straightforward methodology in which one process came after another (requirements, design, implementation, etc.).
+However, Agile/Scrum differs completely in that the entire process is broken into sprints, which consist solely of
+development and testing. The benefits are simple: Less time and resources are required as well as a more flexible
+schedule, allowing for the developers to have a better understanding of their objectives (which change frequently).
+    In addition, working in a group environment has been an eye-opening experience for me. Being a high school student,
+working on your own has always been the norm, especially when it came to labs and projects in classes such as AP
+Computer Science A. Experiencing and taking a part of a multi-national group has been very insightful for me to obtain a
+deeper understanding of the outside working world. Working under strict deadlines and collaborating with other people
+enchanced my communication skills and allowed me to extend my own boundaries and venture outside my comfort zone.
+
+</pre>
+
+
+<div class="footer"><em>Copyright Sam Hsieh 2015</em></div>
+</body>
+</html>
