@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <meta charset="UTF-8">
+    <title>Docs To Go App</title>
+</head>
+<body>
+
+
+<div class="header">Smoke Testing for the Docs To Go App on Android and iOS</div>
+
+<div class="left">
+    <form class="buttons" method="link" action="DocsToGo.html"><input type="submit" value="Docs to Go Team" height="40" width="170"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="WatchDoxApp.html"><input type="submit" value="WatchDox App"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="DocsToGoApp.html"><input type="submit" value="Docs to Go App"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="LinuxandTerminal.html"><input type="submit" value="Linux and Terminal"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="ReposandGitHub.html"><input type="submit" value="Repos and Git Hub"> </form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="index.html"><input type="submit" value="Home"></form>
+    <br>
+    <br>
+    <form class="buttons" method="link" action="aboutMe.html"><input type="submit" value="About Me"></form>
+
+</div>
+
+<img style="margin-left:225px; width:100px; height:100px" src="http://tinyurl.com/nqqqa99" alt="ERROR: Please update your browser">
+
+<pre style="margin-left:225px">
+    <b>Background:</b>
+
+    The Docs To Go Application is a useful tool which can be utilized on a daily basis. Furthermore,
+its functionalities and capabilities far exceed that of a simple document/file viewing program. This
+is because of its integration with the new application, WatchDox, which allows for the highest security
+possible when sharing sensitive files to other people. WatchDox offers advanced security protocols by
+making personalized watermarks on the pages, and also have remote wipe capbilites. This means that when
+an unauthorized person obtains access to a file, the file can be deleted, even if the user is offline.
+Combining such a high level of security with the rendering engine of a very capable app results in a
+perfect formula for success, offering the user the best experience possible from a single application.
+
+    <b>My Role:</b>
+
+</pre>
+
+
+
+<div class="footer"><em>Copyright Sam Hsieh 2015</em></div>
+</body>
+</html>
