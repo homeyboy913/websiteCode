@@ -1,0 +1,61 @@
+
+* {
+    font-family:Arial;
+}
+
+.header {
+    text-align:center;
+    background-color:lightgreen;
+    padding:35px;
+    font-size:40px;
+}
+
+#subheader {
+    font-size:25px;
+    margin-left:225px;
+}
+
+.buttons {
+    padding-left:1em;
+    margin-left:1em;
+    width:170px;
+    height:40px;
+}
+
+#languages {
+    padding-left:10em;
+    margin-left:10em;
+}
+
+table {
+    margin-left:13em;
+    border:1px solid black;
+    padding:5px;
+    width:50%;
+    max-width:200%;
+}
+
+.left {
+    display:inline;
+    width:200px;
+    height:900px;
+    float:left;
+    background-color:lightblue;
+}
+
+body {
+    margin:0;
+    padding:0;
+    z-index:0;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    width:97%;
+    padding:15px;
+    text-align:center;
+    background-color:lightgreen;
+
+
+}
