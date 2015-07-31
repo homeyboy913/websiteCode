@@ -7,51 +7,80 @@
 </head>
 <body>
 
-
-<div class="header">Smoke Testing for the Docs To Go App on Android and iOS</div>
+<div class="header">Smoke Testing for the Docs To Go App on Android and iOS
+    <form method="link" action="index.html"><input type="submit" id="button1" value="Home"></form>
+</div>
 
 <div class="left">
-    <form class="buttons" method="link" action="DocsToGo.html"><input type="submit" value="Docs to Go Team" height="40" width="170"> </form>
+    <h3 style="padding-left:1em; margin-left:1em">BlackBerry:</h3>
+    <br>
+    <form method="link" action="DocsToGo.html"><input type="submit" id="button2" value="Docs to Go Team"> </form>
     <br>
     <br>
-    <form class="buttons" method="link" action="WatchDoxApp.html"><input type="submit" value="WatchDox App"> </form>
+    <form method="link" action="DocsToGoApp.html"><input type="submit" id="button3" value="Docs to Go App"> </form>
     <br>
     <br>
-    <form class="buttons" method="link" action="DocsToGoApp.html"><input type="submit" value="Docs to Go App"> </form>
+    <form method="link" action="WatchDoxApp.html"><input type="submit" id="button4" value="WatchDox App"> </form>
     <br>
     <br>
-    <form class="buttons" method="link" action="LinuxandTerminal.html"><input type="submit" value="Linux and Terminal"> </form>
+    <form method="link" action="LinuxandTerminal.html"><input type="submit" id="button5" value="Linux and Terminal"> </form>
     <br>
     <br>
-    <form class="buttons" method="link" action="ReposandGitHub.html"><input type="submit" value="Repos and Git Hub"> </form>
-    <br>
-    <br>
-    <form class="buttons" method="link" action="index.html"><input type="submit" value="Home"></form>
-    <br>
-    <br>
-    <form class="buttons" method="link" action="aboutMe.html"><input type="submit" value="About Me"></form>
+    <form method="link" action="ReposandGitHub.html"><input type="submit" id="button6" value="Repos and Git Hub"> </form>
+</div>
 
+<div id="right">
+    <h3 style="padding-left:1em; margin-left:1em">Personal:</h3>
+    <br>
+    <script type="text/javascript" src="Bitcoin.js"></script>
+    <input id="clickMe" type="button" style="padding-left:1em; margin-left:1em; width:170px; height:40px;" value="Bitcoin Widget" onclick="bitcoinFunction()" />
+    <br>
+    <br>
+    <br>
+    <form method="link" action="aboutMe.html"><input type="submit" id="button7" value="About Me"></form>
 </div>
 
 <img style="margin-left:225px; width:100px; height:100px" src="http://tinyurl.com/nqqqa99" alt="ERROR: Please update your browser">
 
-<pre style="margin-left:225px">
+<p id="paragraph">
+
+    <!--Finished-->
+
     <b>Background:</b>
-
+    <br>
     The Docs To Go Application is a useful tool which can be utilized on a daily basis. Furthermore,
-its functionalities and capabilities far exceed that of a simple document/file viewing program. This
-is because of its integration with the new application, WatchDox, which allows for the highest security
-possible when sharing sensitive files to other people. WatchDox offers advanced security protocols by
-making personalized watermarks on the pages, and also have remote wipe capbilites. This means that when
-an unauthorized person obtains access to a file, the file can be deleted, even if the user is offline.
-Combining such a high level of security with the rendering engine of a very capable app results in a
-perfect formula for success, offering the user the best experience possible from a single application.
-
+its capabilities far exceed that of a simple file viewing program. It primarily focuses on documents, spreadsheets,
+and powerpoint files, enabling the user to view and modify files, as well as generate new ones while on
+the go. Also, the Docs To Go Application boasts a well designed and aesthetically pleasing formatting window,
+which uses almost all of the same formatting functionalities as Microsoft Word's toolbar. In addition,
+its integration with the application, WatchDox, which allows for the highest security possible when sharing
+sensitive files to other people (see WatchDox App). Combining such a high level of security with the rendering
+engine of a very capable app results in a optimum formula for efficiency, offering the user the best experience
+possible from a single application.
+    <br>
+    <br>
     <b>My Role:</b>
-
-</pre>
-
-
+    <br>
+    For the Docs To Go Application, I joined the DTG scrum team (see Docs To Go Team), and worked on smoke
+testing for the iOS and Android variants. Smoke testing is defined as "preliminary testing to reveal simple
+failures severe enough to reject a prospective software release". In short, it is a method to check for bugs
+which may impair the functionalities of the application on its release. Furthermore, the other developers on
+my team already developed a full smoke test for each of the engines for the application (including Word To Go,
+Sheet To Go, and Slideshow To Go), which included a HTML file divided into two columns with a condition, then a
+predicted outcome. After awhile of testing the functionalities of the application, all of the unexpected outcomes
+are made note of. Next in the process is consulting another group member, and asking for their opinion regarding the
+severity of the defect. If the bug is confirmed to be legitimate as an acutal issue with the program, then it is
+filed on a website called Jira. As one might imagine, many of these bug reports reside on Jira. Fortunately, Jira
+makes it easy to distinguish one report from another, from the many detailed fields which are filled in, regarding
+what platform the bug affects, its severity, and so forth. Finding and reporting bugs was an interesting process,
+which not only was a great experience to learn about new applications, but also ensured that the next app's
+future iterations would be a success. Another type of testing which I conducted is called exploratory testing, which
+is an antithesis to scripted or smoke testing. Unlike the previous two, exploratory testing does not follow any specific
+guidelines. Instead, it relies upon the results of previous testing to guide the tester in a certain direction.
+This more unrestricted mindset has the potential to discover new bugs which may not be visible at first glance.
+From my experience, it has proved to be successful, as its revolutionary thinking approach covers much more than
+the obvious.
+</p>
 
 <div class="footer"><em>Copyright Sam Hsieh 2015</em></div>
 </body>
