@@ -6,7 +6,7 @@
 .header {
     text-align:center;
     background-color:lightgreen;
-    padding:35px;
+    padding:15px;
     font-size:40px;
 }
 
@@ -15,14 +15,67 @@
     margin-left:225px;
 }
 
-.buttons {
+#blackberry {
+    background-color:lightblue;
+    margin-bottom:-50px;
+}
+
+#personal {
+    background-color:#FFCC00;
+    margin-top:50px;
+}
+
+#button1 {
     padding-left:1em;
     margin-left:1em;
     width:170px;
     height:40px;
 }
 
-#languages {
+#button2 {
+    padding-left:1em;
+    margin-left:1em;
+    width:170px;
+    height:40px;
+}
+
+#button3 {
+    padding-left:1em;
+    margin-left:1em;
+    width:170px;
+    height:40px;
+}
+
+#button4 {
+    padding-left:1em;
+    margin-left:1em;
+    width:170px;
+    height:40px;
+}
+
+#button5 {
+     padding-left:1em;
+     margin-left:1em;
+     width:170px;
+     height:40px;
+ }
+
+#button6 {
+    padding-left:1em;
+    margin-left:1em;
+    width:170px;
+    height:40px;
+  }
+
+#button7 {
+    padding-left:1em;
+    margin-left:1em;
+    width:170px;
+    height:40px;
+}
+
+#languages li {
+    display:inline;
     padding-left:10em;
     margin-left:10em;
 }
@@ -35,10 +88,21 @@ table {
     max-width:200%;
 }
 
+
+#right {
+    display:inline;
+    width:200px;
+    height:800px;
+    float:right;
+    background-color:#FFCC00;
+}
+
+
+
 .left {
     display:inline;
     width:200px;
-    height:900px;
+    height:800px;
     float:left;
     background-color:lightblue;
 }
@@ -52,10 +116,20 @@ body {
 .footer {
     position:fixed;
     bottom:0;
-    width:97%;
+    width:100%;
     padding:15px;
     text-align:center;
     background-color:lightgreen;
 
+}
 
+#paragraph {
+    line-spacing:1.5;
+    margin-left:225px;
+}
+
+#coindesk-widget {
+    margin-left:800px;
+    margin-top:-80px;
+    margin-bottom:50px;
 }
