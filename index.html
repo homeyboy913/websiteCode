@@ -4,78 +4,125 @@
     <link rel="stylesheet" type="text/css" href="css.css">
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+
+    <!--
+    <div ng-app="myApp" ng-controller="myController">
+
+    </div>
+
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('myController', function($scope, $http) {
+        $http.get("http://api.coindesk.com/v1/bpi/currentprice.json")
+                .success(function (response) {});
+        });
+    </script>
+    -->
+
+
 </head>
 </a>
-    <div class="header">Welcome to the homepage of Sam Hsieh's Web Application!</div>
-    <div class="left">
-        <form class="buttons" method="link" action="DocsToGo.html"><input type="submit" value="Docs to Go Team" height="40" width="170"> </form>
-        <br>
-        <br>
-        <form class="buttons" method="link" action="WatchDoxApp.html"><input type="submit" value="WatchDox App"> </form>
-        <br>
-        <br>
-        <form class="buttons" method="link" action="DocsToGoApp.html"><input type="submit" value="Docs to Go App"> </form>
-        <br>
-        <br>
-        <form class="buttons" method="link" action="LinuxandTerminal.html"><input type="submit" value="Linux and Terminal"> </form>
-        <br>
-        <br>
-        <form class="buttons" method="link" action="ReposandGitHub.html"><input type="submit" value="Repos and Git Hub"> </form>
-        <br>
-        <br>
-        <form class="buttons" method="link" action="index.html"><input type="submit" value="Home"></form>
-        <br>
-        <br>
-        <form class="buttons" method="link" action="aboutMe.html"><input type="submit" value="About Me"></form>
+    <div class="header">Welcome to the homepage of Sam Hsieh's Web Application!
+        <form method="link" action="index.html"><input type="submit" id="button1" value="Home"></form>
     </div>
+
+<div id="blackberry">
+
+<div class="left">
+    <h3 style="padding-left:1em; margin-left:1em">BlackBerry:</h3>
+    <br>
+    <form method="link" action="DocsToGo.html"><input type="submit" id="button2" value="Docs to Go Team"> </form>
+    <br>
+    <br>
+    <form method="link" action="DocsToGoApp.html"><input type="submit" id="button3" value="Docs to Go App"> </form>
+    <br>
+    <br>
+    <form method="link" action="WatchDoxApp.html"><input type="submit" id="button4" value="WatchDox App"> </form>
+    <br>
+    <br>
+    <form method="link" action="LinuxandTerminal.html"><input type="submit" id="button5" value="Linux and Terminal"> </form>
+    <br>
+    <br>
+    <form method="link" action="ReposandGitHub.html"><input type="submit" id="button6" value="Repos and Git Hub"> </form>
+</div>
+
+<div id="right">
+    <h3 style="padding-left:1em; margin-left:1em">Personal:</h3>
+    <br>
+    <script type="text/javascript" src="Bitcoin.js"></script>
+    <input id="clickMe" type="button" style="padding-left:1em; margin-left:1em; width:170px; height:40px;" value="Bitcoin Widget" onclick="bitcoinFunction()" />
+    <br>
+    <br>
+    <br>
+    <form method="link" action="aboutMe.html"><input type="submit" id="button7" value="About Me"></form>
+</div>
+
 
     <div id="subheader">This is the place where you'll find all of my accomplishments in the Summer of 2015.</div>
     <br>
     <br>
-    <h3 style="margin-left:225px">Resources:</h3>
 
-    <a style="margin-left:225px; height:30px; width:70px;" href="http://www.w3schools.com/"/>
-    <img src="http://www.w3schools.com/images/w3schools.png">
-    </a>
-
-    <a style="margin-left:225px; height:30px; width:70px;" href="https://www.codecademy.com/learn"/>
-    <img src="https://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg">
-    </a>
-
+    <h3 style="margin-left:225px">Main areas:</h3>
+    <table>
+        <tr>
+            <th>2 Sprints in Docs To Go Team</th>
+            <th>BB 10 OS WatchDox App</th>
+            <th>iOS and Android Docs To Go App</th>
+            <th>Linux and Terminal Commands</th>
+            <th>Repositories and Git Hub</th>
+        </tr>
+    </table>
     <br>
-    <br>
+    <hr>
 
-    <h3 style="margin-left:225px">This is a list of all the programming languages that I know (some better than others):</h3>
+
+
+    <h3 style="margin-left:225px">Languages I learned:</h3>
     <ul id="languages">
-        <li><img style="height:50px; width:50px" src="http://tinyurl.com/opqq8c8"></li>
-        <li><img style="height:50px; width:50px" src="http://tinyurl.com/ourqfy6"></li>
-        <li><img style="height:50px; width:50px" src="http://tinyurl.com/a9sxgog"></li>
-        <li><img style="height:50px; width:50px" src="http://tinyurl.com/o4kkk8y"></li>
-        <li><img style="height:50px; width:50px" src="http://tinyurl.com/ovlqpx2"></li>
+        <li><img style="height:70px; width:70px" src="http://tinyurl.com/opqq8c8"></li>
+        <li><img style="height:70px; width:50px" src="http://tinyurl.com/pc3jowe"></li>
+        <li><img style="height:70px; width:70px" src="http://tinyurl.com/a9sxgog"></li>
+        <li><img style="height:70px; width:70px" src="http://tinyurl.com/ovlqpx2"></li>
     </ul>
 
+    <hr>
+
+    <h3 style="margin-left:225px">Resources (clickable):</h3>
+
+    <a href="http://www.w3schools.com/"/>
+    <img style="margin-left:225px; height:30px; width:150px;" src="http://www.w3schools.com/images/w3schools.png">
+    </a>
+
+    <a href="https://www.codecademy.com/learn"/>
+    <img style="margin-left:225px; height:30px; width:150px;" src="https://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg">
+    </a>
+    <hr>
+</div>
+
+    <div id="personal">
+
+    <h3 style="margin-left:225px">More info about Bitcoin (clickable):</h3>
+    <a href="https://bitcoin.org"/>
+    <img style="margin-left:225px; height:70px; width:70px;" src="http://tinyurl.com/q5klmnc">
+    </a>
+
+    <div id="coindesk-widget"></div>
+    <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?711e7b"></script>
     <br>
-    <br>
-
-    <h3 style="margin-left:225px">These are the main areas that I focused on:</h3>
-    <table>
-    <tr>
-        <th>2 Sprints in Docs To Go Team</th>
-        <th>BB 10 OS WatchDox App</th>
-        <th>iOS and Android Docs To Go App</th>
-        <th>Linux and Terminal Commands</th>
-        <th>Repositories and Git Hub</th>
-    </tr>
-    </table>
-
-    <br>
-
-    <a style="margin-left:225px" href="http://api.coindesk.com/v1/bpi/currentprice.json"/>Bitcoin Price</a>
 
 
+    <!--
 
-    <script type="text/javascript" src="Bitcoin.js"></script>
-    <input id="clickMe" type="button" style="margin-left:225px" value="Bitcoin Widget" onclick="bitcoinFunction()" />
+    Broken link
+
+    <p>Graph based on Bitcoin price from July 23rd - July 30th, 2015</p>
+    <img style="margin-left:1165px; height:250px; width:300px; margin-top:-350px" src="http://tinyurl.com/osn2vba">
+
+    -->
+
+    </div>
 
 
     <div class="footer"><em>Copyright Sam Hsieh 2015</em></div>
