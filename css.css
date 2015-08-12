@@ -74,6 +74,13 @@
     height:40px;
 }
 
+#button8 {
+    padding-left:1em;
+    margin-left:1em;
+    width:170px;
+    height:40px;
+}
+
 #languages li {
     display:inline;
     padding-left:10em;
@@ -92,7 +99,7 @@ table {
 #right {
     display:inline;
     width:200px;
-    height:100vh;
+    height:800px;
     float:right;
     background-color:#FFCC00;
 }
@@ -102,7 +109,7 @@ table {
 .left {
     display:inline;
     width:200px;
-    height:100vh;
+    height:800px;
     float:left;
     background-color:lightblue;
 }
