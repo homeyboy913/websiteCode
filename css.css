@@ -92,7 +92,7 @@ table {
 #right {
     display:inline;
     width:200px;
-    height:800px;
+    height:100vh;
     float:right;
     background-color:#FFCC00;
 }
@@ -102,7 +102,7 @@ table {
 .left {
     display:inline;
     width:200px;
-    height:800px;
+    height:100vh;
     float:left;
     background-color:lightblue;
 }
