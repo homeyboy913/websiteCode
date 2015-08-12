@@ -3,23 +3,23 @@
  * Created by shsieh on 7/21/2015.
  */
 
-var count = 0, average = 0, sum = 0;
-var dataPoint = [289,287,284,280,282,280,285];
+var average = 0, sum = 0;
+var dataPoint = [265,268,270,268,284,292,310];
 var smallest = 10000, smallestPosition = 0, largest = 0, largestPosition = 0;
-var date = new Date();
-var minutes = date.getMinutes();
+//var date = new Date();
+//var minutes = date.getMinutes();
 var differenceSmall1, differenceLarge1, differenceSmall2, differenceLarge2;
 var slopeSmall = 0, slopeLarge = 0;
 var num1 = 0, num2 = 0, w = 0, m = 0;
 var peaks = 0, bottoms = 0;
 var firstSlope = 0, nextSlope = 0, numChanges = 0;
-var support = 0; resistance = 0;
-
+var support, resistance;
+var i = 0;
 
 function bitcoinFunction() {
 
 
-    document.write("Welcome to Sam Hsieh's Bitcoin Price Speculatory Widget v2.0.0!" + "<br>");
+    document.write("Welcome to Sam Hsieh's Bitcoin Price Speculatory Widget v2.1.0!" + "<br>");
     document.write("This widget is intended to estimate the future price of bitcoin (short-term) based on previous performance (in days)." + "<br>");
 
     /*
@@ -38,7 +38,7 @@ function bitcoinFunction() {
         alert("Application started using previously entered values from July 23rd, 2015 to July 30th, 2015");
    */
 
-    alert("Application started using previously entered values from July 28th, 2015 to August 4th, 2015");
+    alert("Application started using previously entered values from July 5th, 2015 to July 12th, 2015");
 
 
 
@@ -70,7 +70,7 @@ function bitcoinFunction() {
 
     document.write("The high is: " + largest + " While the low is: " + smallest + " ");
     document.write("The high is at day: " + largestPosition + " While the low is at day: " + smallestPosition + "<br>");
-    document.write("The average price of bitcoin today is: " + average + "<br>" + "<br>");
+    document.write("The average price of bitcoin this week is: " + average + "<br>" + "<br>");
 
 //algorithm that finds slope to the closest point (high and low) NOTE: Encorporate trendlines into this?
 
@@ -113,7 +113,7 @@ function bitcoinFunction() {
         if (firstSlope > 0 && nextSlope < 0 || firstSlope < 0 && nextSlope > 0)
             numChanges++;
         if (numChanges != 0 && numChanges % 3 === 0)
-            document.write("There's either a W or a M! This is a strong indication of a support or resistance level!" + "<br>");
+            document.write("There is probably a W or M! This is usually a strong indication of a support or resistance level!" + "<br>");
     }
 
 //algorithm that finds any M's
@@ -182,22 +182,26 @@ function bitcoinFunction() {
 
     document.write("The slopes between the prices are: ");
 
-    for (i = 0; i < 6; i++) {
-        document.write(slopes[i] + " ");
+    for (i = 0; i <= 5; i++) {
+        if (i != 5)
+            document.write(slopes[i] + ", ");
+        else
+            document.write(slopes[i] + " ");
         if (slopes[i] < 0)
             negatives++;
-        if (slopes[i] > 0)
+        else if (slopes[i] > 0)
             positives++;
-        if (i === 5)
-            document.write("<br>");
     }
 
+    document.write("<br>");
+
+
     if (negatives > positives)
-        document.write("Overall, it looks like bitcoin is on a downtrend." + "<br>");
+         document.write("Overall, it looks like bitcoin is on a downtrend." + "<br>");
     else if (positives > negatives)
-        document.write("Overall, it looks like bitcoin is on a uptrend." + "<br>");
+         document.write("Overall, it looks like bitcoin is on a uptrend." + "<br>");
     else if (positives === negatives)
-        document.write("Overall, it looks like bitcoin is going sideways." + "<br>");
+         document.write("Overall, it looks like bitcoin is going sideways." + "<br>");
 
 //output
 
